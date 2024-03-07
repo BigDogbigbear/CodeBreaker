@@ -1,0 +1,65 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center; 
+	background-color: #3b3c36;
+}
+
+#board {
+	width: 620px;
+	height: 300px;
+	background-color: green;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	border: 3px solid white;
+	border-radius: 25px;
+	align-content: flex-start;
+	overflow: hidden;
+	align-content: center;
+}
+#board div{
+	width: 620px;
+}
+
+#header{
+	font-size: 30px;
+	margin-top: 10px;
+	height: 80px;
+}
+
+#score{
+	display: flex;
+	justify-content: center;
+	height: 100px;
+}
+#score div{
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+	font-size: 60px;
+	width: 60px;
+	border-bottom: 5px solid black;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#button{
+	margin-top: 20px;
+	height: 50px;
+	width: 200px;
+}
+#digits{}
+
+#input{}
+
+.tiles {
+	font-weight: bold;
+	font-size: 60px;
+	text-align: center;
+	width: 590px;
+	height: 100px;
+}
+
+h1, h2{
+	margin: 0;
+	padding: 0;
+}

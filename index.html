@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="./CheckArray.css"/>
+	<script src="./CheckArray.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CodeBreaker</title>
+</head>
+<body>
+	<div id="board">
+	<div id="header"><h1>Codebreaker!</h1></div>
+	<div id="score"></div>
+	</div>
+	<div id="board">
+	<div><h2>Guess the hidden number, it has <span id="digits">0</span> digits</h2></div>
+	<div>
+	<form onsubmit="return playGame();">
+	<input type="text" class="tiles" id="input"></input>
+	</form>
+	</div>
+	<div><button id="button">Start the Game!</button></div>
+	</div>
+</body>
+</html>
